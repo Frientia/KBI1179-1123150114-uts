@@ -10,7 +10,17 @@ class SplashScreen1 extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: Column(
-            children: [],
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                width: 250,
+                height: 250,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Colors.amber,
+                ),
+              ),
+            ],
           ),
         ),
       ),
