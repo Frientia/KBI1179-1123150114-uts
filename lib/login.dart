@@ -38,6 +38,29 @@ class Login extends StatelessWidget {
 
                 const SizedBox(height: 10),
 
+                const SizedBox(height: 40),
+                const TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                    labelText: 'Password',
+                    hintText: 'Masukkan Password Anda',
+                    prefixIcon: Icon(Icons.email_outlined),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12)),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12)),
+                      borderSide: BorderSide(color: Colors.grey),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12)),
+                      borderSide: BorderSide(color: Colors.amber, width: 2),
+                    ),
+                  ),
+                ),
+
+                const SizedBox(height: 10),
+
                 Align(
                   alignment: Alignment.centerRight,
                   child: TextButton(
