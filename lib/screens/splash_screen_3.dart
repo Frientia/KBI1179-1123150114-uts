@@ -92,7 +92,7 @@ class SplashScreen3 extends StatelessWidget {
                       'Continue',
                       style: TextStyle(fontSize: 16, color: Colors.white),
                     ),
-                  ),
+                  ),  
                 ),
               ),
               const SizedBox(height: 70),
