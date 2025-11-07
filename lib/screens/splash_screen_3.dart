@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SplashScreen1 extends StatelessWidget {
-  const SplashScreen1({super.key});
+class SplashScreen3 extends StatelessWidget {
+  const SplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class SplashScreen1 extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               const Text(
-                'Forgot to bring your wallet /n when you are shopping?',
+                'let\'s try Wallie Now. And get the best solution',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
@@ -51,25 +51,25 @@ class SplashScreen1 extends StatelessWidget {
                     height: 12,
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
+                      color: Color(0xFFedede9),
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Container(
+                    width: 12,
+                    height: 12,
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFFedede9),
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Container(
+                    width: 12,
+                    height: 12,
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
                       color: Color(0xFFf5a623),
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Container(
-                    width: 12,
-                    height: 12,
-                    decoration: const BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Color(0xFFedede9),
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Container(
-                    width: 12,
-                    height: 12,
-                    decoration: const BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Color(0xFFedede9),
                     ),
                   ),
                 ],

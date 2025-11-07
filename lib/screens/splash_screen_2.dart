@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SplashScreen1 extends StatelessWidget {
-  const SplashScreen1({super.key});
+class SplashScreen2 extends StatelessWidget {
+  const SplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class SplashScreen1 extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               const Text(
-                'Forgot to bring your wallet /n when you are shopping?',
+                'Don\'t worry! we got you cover. use wallie instead of cash!',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
@@ -51,7 +51,7 @@ class SplashScreen1 extends StatelessWidget {
                     height: 12,
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFf5a623),
+                      color: Color(0xFFedede9),
                     ),
                   ),
                   const SizedBox(width: 10),
@@ -60,7 +60,7 @@ class SplashScreen1 extends StatelessWidget {
                     height: 12,
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFedede9),
+                      color: Color(0xFFf5a623),
                     ),
                   ),
                   const SizedBox(width: 10),
