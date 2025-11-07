@@ -6,10 +6,15 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          'Login',
-          style: TextStyle(fontSize: 24),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Container(
+            padding: const EdgeInsets.all(20),
+            constraints: const BoxConstraints(maxWidth: 400),
+            child: const Column(
+              children: [],
+            ),
+          ),
         ),
       ),
     );
