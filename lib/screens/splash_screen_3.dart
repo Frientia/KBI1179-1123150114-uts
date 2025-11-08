@@ -40,7 +40,7 @@ class SplashScreen3 extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
-                  color: Colors.black54,
+                  color: Colors.amber,
                 ),
               ),
               const SizedBox(height: 30),
