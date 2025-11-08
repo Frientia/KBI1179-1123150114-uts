@@ -48,12 +48,13 @@ class Login extends StatelessWidget {
                 const SizedBox(height: 10),
 
                 const SizedBox(height: 40),
-                const TextField(
-                  keyboardType: TextInputType.emailAddress,
-                  decoration: InputDecoration(
+                TextField(
+                  keyboardType: TextInputType.visiblePassword,
+                  obscureText: true,
+                  decoration: const InputDecoration(
                     labelText: 'Password',
                     hintText: 'Masukkan Password Anda',
-                    prefixIcon: Icon(Icons.email_outlined),
+                    prefixIcon: Icon(Icons.lock_outline),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(12)),
                     ),
@@ -67,6 +68,7 @@ class Login extends StatelessWidget {
                     ),
                   ),
                 ),
+
 
                 const SizedBox(height: 10),
 
