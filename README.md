@@ -36,3 +36,6 @@ Berikut hasil tampilan aplikasi:
    ```bash
    flutter pub get
    flutter run
+
+
+### Terima Kasih
