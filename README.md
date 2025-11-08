@@ -4,16 +4,16 @@
 Berikut hasil tampilan aplikasi:
 
 ### Tampilan Mobile
-![Tampilan Aplikasi Mobile 1](assets/images/display/mobile1.png)
-![Tampilan Aplikasi Mobile 2](assets/images/display/mobile2.png)
-![Tampilan Aplikasi Mobile 3](assets/images/display/mobile3.png)
-![Tampilan Aplikasi Mobile 4](assets/images/display/mobile4.png)
+![Tampilan Aplikasi Mobile 1](assets/images/display/mobile-1.png)
+![Tampilan Aplikasi Mobile 2](assets/images/display/mobile-2.png)
+![Tampilan Aplikasi Mobile 3](assets/images/display/mobile-3.png)
+![Tampilan Aplikasi Mobile 4](assets/images/display/mobile-4.png)
 
 ### Tampilan Desktop
-![Tampilan Aplikasi Desktop 1](assets/images/display/desktop1.png)
-![Tampilan Aplikasi Desktop 2](assets/images/display/desktop2.png)
-![Tampilan Aplikasi Desktop 3](assets/images/display/desktop3.png)
-![Tampilan Aplikasi Desktop 4](assets/images/display/desktop4.png)
+![Tampilan Aplikasi Desktop 1](assets/images/display/desktop-1.png)
+![Tampilan Aplikasi Desktop 2](assets/images/display/desktop-2.png)
+![Tampilan Aplikasi Desktop 3](assets/images/display/desktop-3.png)
+![Tampilan Aplikasi Desktop 4](assets/images/display/desktop-4.png)
 
 ---
 
