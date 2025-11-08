@@ -16,8 +16,8 @@ class Login extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                  Container(
-                  width: 250,
-                  height: 250,
+                  width: 150,
+                  height: 150,
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: AssetImage('assets/images/splash1.png'),
@@ -48,7 +48,7 @@ class Login extends StatelessWidget {
 
                 const SizedBox(height: 10),
 
-                const SizedBox(height: 40),
+                const SizedBox(height: 15),
                 TextField(
                   keyboardType: TextInputType.visiblePassword,
                   obscureText: true,
