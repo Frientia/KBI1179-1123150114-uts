@@ -6,7 +6,7 @@ class FooterWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.amber.shade100,
+      color: const Color.fromARGB(255, 230, 229, 229),
       padding: const EdgeInsets.all(12),
       child: const Text(
         '© 2025 Muhamad Yajid Rizky | 1123150114',
