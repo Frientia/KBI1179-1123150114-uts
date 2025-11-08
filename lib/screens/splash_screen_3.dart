@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../login.dart';
+import '../widgets/footer_widget.dart';
 
 class SplashScreen3 extends StatelessWidget {
   const SplashScreen3({super.key});
@@ -107,6 +108,7 @@ class SplashScreen3 extends StatelessWidget {
         ),
       ),
       ),
+      bottomNavigationBar: const FooterWidget(),
     );
   }
 }

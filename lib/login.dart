@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/footer_widget.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -160,6 +161,7 @@ class Login extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: const FooterWidget(),
     );
   }
 }
