@@ -36,7 +36,7 @@ class SplashScreen2 extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               const Text(
-                'Don\'t worry! we got you cover. use wallie instead of cash!',
+                'Don\'t worry! we got you cover. \nuse wallie instead of cash!',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,

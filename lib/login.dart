@@ -14,7 +14,16 @@ class Login extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-
+                 Container(
+                  width: 250,
+                  height: 250,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage('assets/images/splash1.png'),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
                 const SizedBox(height: 40),
                 const TextField(
                   keyboardType: TextInputType.emailAddress,

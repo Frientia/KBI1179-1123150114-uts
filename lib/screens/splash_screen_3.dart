@@ -36,7 +36,7 @@ class SplashScreen3 extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               const Text(
-                'let\'s try Wallie Now. And get the best solution',
+                'let\'s try Wallie Now. \nAnd get the best solution',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
